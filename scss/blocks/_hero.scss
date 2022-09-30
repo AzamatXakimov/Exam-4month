@@ -1,0 +1,107 @@
+.hero{
+    padding-top: 108px;
+    padding-bottom: 108px;
+    background-image: url("../images/hero-m-bg.svg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    // background-size: cover;
+}
+
+.hero-textbox{
+    max-width: 480px;
+    width: 100%;
+}
+
+.hero-minitext{
+    font-size: 16px;
+    line-height: 155.2%;
+    color: #e87d0e;    
+}
+
+.hero-text{
+    margin-top: 31px;
+    margin-bottom: 28px;
+    font-size: 34px;
+    line-height: 155.2%;
+    
+    color: #000000;
+}
+
+.hero-desc{
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000000;
+}
+
+.hero-link{
+    max-width: 168px;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    background-image: linear-gradient(92.48deg, #fa8305 2.08%, #fb9e3c 117.25%);
+    border-radius: 40px;
+}
+
+@include mobile-first(576px){
+    .hero{
+        background-image: url("../images/hero-bg.svg");
+    }
+}
+
+@include mobile-first(768px){
+    .hero{
+        padding-top: 128px;
+        padding-bottom: 158px;
+        background-image: url("../images/mens-in-vr.png"), url("../images/hero-bg.svg");
+        background-position: calc(50% + 240px) calc(50% - 10px), center bottom; 
+        background-size: 400px auto, auto;
+    }
+    
+    .hero-textbox{
+        margin-left: 72px;
+    }
+    
+    .hero-minitext{
+        font-size: 16px;
+        line-height: 155.2%;
+        color: #e87d0e;    
+    }
+    
+    .hero-text{
+        margin-top: 17px;
+        margin-bottom: 26px;
+        font-size: 50px;
+        line-height: 155.2%;
+    }
+    
+    .hero-desc{
+        margin-bottom: 50px;
+        font-size: 16px;
+        line-height: 200%;
+    }
+    
+    .hero-link{
+        max-width: 195px;
+        padding-top: 14px;
+        padding-bottom: 15px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+@include mobile-first(992px){
+    .hero{
+        background-size: 500px auto, auto;
+    }
+}
+@include mobile-first(1200px){
+    .hero{
+        background-size: 675px 590px, auto;
+    }
+}

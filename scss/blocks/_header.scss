@@ -1,0 +1,101 @@
+.navbar-show{
+    overflow: hidden;
+}
+
+
+.header-top-link{
+    font-size: 10px;
+    line-height: 15px;
+    color: #1a1a1a;
+
+    &::before{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        background-image: url("../images/location-icon.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        content: "";
+    }
+}
+
+.header-top-phone{
+    margin-left: 100px;
+    &::before{
+        margin-right: 6px;
+        background-image: url("../images/phone-icon.svg");
+    }
+}
+
+.header-bottom{
+    background-image: linear-gradient(90.05deg, #e47500 -5.66%, #df7c14 115.63%);
+}
+
+.header-navbar{
+    top: 75px;
+    display: none;
+    max-width: 325px;
+    width: 100%;
+    background-image: linear-gradient(90.05deg, #e47500 -5.66%, #df7c14 115.63%);
+    border-radius: 14px;
+}
+
+.navbar-show .header-navbar{
+    display: flex;
+}
+
+.header-nav-link{
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #fff;
+}
+
+.navbar-btn{
+    width: 26px;
+    height: 21px;
+    background-image: url("../images/burger.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-link{
+    max-width: 132px;
+    width: 100px;
+    margin-left: 69px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: #dc7000;    
+    border-radius: 6px;
+}
+
+
+@include mobile-first(768px){
+    .navbar-show{
+        overflow-y: scroll;
+    }
+
+
+    .header-navbar{
+        position: static !important;
+        max-width: 486px;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .header-nav-link-active{
+        &::before{
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            margin-right: 7px;
+            border-radius: 50%;
+            background-color: #fff;
+            content: "";
+        }
+    }
+}
