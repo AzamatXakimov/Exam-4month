@@ -1,0 +1,137 @@
+.subcribe{
+    margin-top: 49px;
+    margin-bottom: 69px;
+}
+
+.subcribe-inner{
+    max-width: 1170px;
+    width: 100%;
+}
+
+.subcribe-textbox{
+    max-width: 545px;
+    width: 100%;
+}
+
+.subcribe-title{
+    margin-bottom: 13px;
+    font-size: 20px;
+    line-height: 187.5%;
+    color: var(----main-text-color);
+}
+
+
+.subcribe-top-desc{
+    font-size: 12px;
+    line-height: 187.5%;
+    
+    color: var(--main-desc-color);
+}
+
+.subcribe-box{
+    margin-top: 41px;
+    padding-top: 30px;
+    padding-right: 23px;
+    padding-bottom: 24px;
+    padding-left: 21px;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+}
+
+.subcribe-text{
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.subcribe-bottom-desc{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.subcribe-form{
+    margin-top: 43px;
+    max-width: 386px;
+    width: 100%;
+}
+
+.subcribe-input{
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-left: 21px;
+
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: var(----main-text-color);
+    
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    
+    &::placeholder{
+        color: #898989;
+    }
+}
+
+.subcribe-btnbox{
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 5px;
+    background-color: #fff;
+
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.subcribe-btn{
+    width: 105px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+
+    font-size: 13px;
+    line-height: 20px;
+    
+    text-align: center;
+    
+    color: #fff;
+    
+
+    background-color: #dc7000;
+}
+
+@include mobile-first(768px){
+    .subcribe{
+        margin-top: 125px;
+        margin-bottom: 148px;
+    }
+
+    .subcribe-title{
+        margin-bottom: 32px;
+        font-size: 30px;
+    }
+    
+    .subcribe-top-desc{
+        font-size: 16px;
+    }
+
+    .subcribe-box{
+        margin-top: 74px;
+        padding-top: 40px;
+        padding-right: 50px;
+        padding-bottom: 42px;
+        padding-left: 56px;
+    }
+
+    .subcribe-text{
+        margin-bottom: 10px;
+    }
+
+    .subcribe-bottom-desc{
+        font-size: 17px;
+        line-height: 26px;
+    }
+}

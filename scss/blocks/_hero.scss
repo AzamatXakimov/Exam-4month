@@ -59,7 +59,7 @@
         padding-bottom: 158px;
         background-image: url("../images/mens-in-vr.png"), url("../images/hero-bg.svg");
         background-position: calc(50% + 240px) calc(50% - 10px), center bottom; 
-        background-size: 400px auto, auto;
+        background-size: 400px auto, cover;
     }
     
     .hero-textbox{
@@ -97,11 +97,11 @@
 
 @include mobile-first(992px){
     .hero{
-        background-size: 500px auto, auto;
+        background-size: 500px auto, cover;
     }
 }
 @include mobile-first(1200px){
     .hero{
-        background-size: 675px 590px, auto;
+        background-size: 675px 590px, cover;
     }
 }

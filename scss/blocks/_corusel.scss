@@ -1,0 +1,119 @@
+.corusel{
+    padding-top: 55px;
+    padding-bottom: 104px;
+    background-color: #f5f5f5;
+}
+
+.corusel-top-textbox{
+    margin-bottom: 33px;
+}
+
+.corusel-top-desc{
+    font-size: 16px;
+    line-height: 187.5%;
+    color: var(--main-desc-color);    
+}
+
+.corusel-items{
+    max-width: 299px;
+
+    margin-right: 38px;
+
+    padding-top: 30px;
+    padding-right: 31px;
+    padding-bottom: 24px;
+    padding-left: 28px;
+
+    box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.corusel-alert{
+    max-width: 140px;
+    padding: 6px 14px;
+    font-size: 14px;
+    line-height: 187.5%;
+}
+
+.corusel-alert-green{
+    color: #0cbe64;
+    background-color: rgba(12, 190, 100, 0.15);
+}
+
+.corusel-alert-red{
+    color: #dc0000;
+    background-color: rgba(220, 0, 0, 0.1);
+}
+
+.corusel-alert-violet{
+    color: #b000dc;
+    background-color: rgba(176, 0, 220, 0.11);
+}
+
+.corusel-alert-blue{
+    color: #0058dc;
+    background-color: rgba(0, 88, 220, 0.09);
+}
+
+.corusel-text{
+    margin-top: 17px;
+    margin-bottom: 13px;
+    font-size: 20px;
+    line-height: 187.5%;
+}
+
+.corusel-desc{
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 187.5%;
+    
+    color: var(--main-desc-color);
+}
+
+.corusel-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #dc7000;
+
+    &::after{
+        display: inline-block;
+        width: 11px;
+        height: 11px;
+        margin-left: 9px;
+        background-image: url("../images/orange-arrow.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: "";
+    }
+}
+
+@include mobile-first(768px){
+    .corusel{
+        padding-top: 69px;
+        padding-bottom: 100px;
+    }
+    
+    .corusel-text{
+        margin-top: 19px;
+    }
+
+    .corusel-desc{
+        margin-bottom: 28px;
+        font-size: 12px;
+    }
+
+    .corusel-items{
+        max-width: 378px;
+    
+        padding-top: 35px;
+        padding-right: 39px;
+        padding-bottom: 39px;
+        padding-left: 35px;
+        
+        box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+    }
+    
+}

@@ -7,6 +7,8 @@
     <title>Exam</title>
     <link rel="stylesheet" href="./css/bootstrap.css">  
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 </head>
 <body>
@@ -27,23 +29,23 @@
                         <img src="./images/logo.svg" alt="Site logo">
                     </a>
                     <nav class="d-flex align-items-center justify-content-end w-100">
-                        <ul class="header-navbar position-absolute end-0 flex-column align-items-center justify-content-between flex-md-wrap mb-0 py-4 list-unstyled d-md-flex flex-md-row py-md-0">
-                            <li class="mb-4 mb-md-0 me-md-3">
+                        <ul class="header-navbar position-absolute end-0 flex-column align-items-center flex-md-wrap mb-0 py-4 list-unstyled d-md-flex flex-md-row py-md-0">
+                            <li class="header-item mb-4 mb-md-0">
                                 <a class="header-nav-link text-decoration-none header-nav-link-active" href="#">
                                     Home
                                 </a>
                             </li>
-                            <li class="mb-4 mb-md-0 me-md-3">
+                            <li class="header-item mb-4 mb-md-0">
                                 <a class="header-nav-link text-decoration-none" href="#">
                                     About us
                                 </a>
                             </li>
-                            <li class="mb-4 mb-md-0 me-md-3">
+                            <li class="header-item mb-4 mb-md-0">
                                 <a class="header-nav-link text-decoration-none" href="#">
                                     Services
                                 </a>
                             </li>
-                            <li>
+                            <li class="header-item ">
                                 <a class="header-nav-link text-decoration-none" href="#">
                                     News
                                 </a>
@@ -85,21 +87,322 @@
             </div>
         </section>
         <!-- Hero section finish  -->
-        
-        <!-- Hero section start  -->
-        <section>
-            
+        <!-- Team section start  -->
+        <section class="team">
+            <div class="container-cust">
+                <div class="team-top-inner w-100 mx-auto">
+                    <div class="team-titlebox mx-auto">
+                        <h2 class="team-top-title fw-semibold mb-0 text-center">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </h2>
+                    </div>
+
+                    <div class="team-textbox d-none w-100 mt-5 d-md-block">
+                        <h3 class="team-top-text fw-semibold">
+                            Lorem Ipsum
+                        </h3>
+                        <p class="team-desc mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="team-top-inner mx-sm-auto">
+                <img class="team-image w-100 mt-md-0" src="./images/team.png" 
+                srcset="./images/team.png 1x , ./images/team@2x.png 2x"
+                alt="Team image">
+            </div>
+
+            <div class="container-cust">
+                <div class="team-bottom-inner w-100 mx-auto">
+                    <div class="team-titlebox mx-auto">
+                        <h2 class="team-bottom-title fw-semibold mb-sm-4 text-center">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        </h2>
+
+                        <p class="team-desc mb-0 text-center">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+
+                    <ul class="team-list row mb-0 g list-unstyled">
+                        <li class="team-item col-12 col-md-4 col-lg-3">
+                            <div class="team-items-box d-flex flex-column align-items-center">
+                                <h3 class="team-items-text mb-4 text-black text-center">
+                                    Mobile Game Development
+                                </h3>
+                                <a class="team-link d-inline-block" href="#"></a>
+                            </div>
+                        </li>
+                        <li class="team-item col-12 col-md-4 col-lg-3">
+                            <div class="team-items-box d-flex flex-column align-items-center">
+                                <h3 class="team-items-text mb-4 text-black text-center">
+                                    PC Game Development
+                                </h3>
+                                <a class="team-link d-inline-block" href="#"></a>
+                            </div>
+                        </li>
+                        <li class="team-item col-12 col-md-4 col-lg-3">
+                            <div class="team-items-box d-flex flex-column align-items-center">
+                                <h3 class="team-items-text mb-4 text-black text-center">
+                                    PS4 Game Development
+                                </h3>
+                                <a class="team-link d-inline-block" href="#"></a>
+                            </div>
+                        </li>
+                        <li class="team-item col-12 col-md-4 col-lg-3">
+                            <div class="team-items-box d-flex flex-column align-items-center">
+                                <h3 class="team-items-text mb-4 text-black text-center">
+                                    AR/VR Solutions
+                                </h3>
+                                <a class="team-link d-inline-block" href="#"></a>
+                            </div>
+                        </li>
+
+                        <li class="team-item col-0 d-none col-md-4 d-md-flex justify-content-md-center col-lg-6 justify-content-lg-end mb-0 pe-lg-5">
+                            <div class="team-items-box d-flex flex-column align-items-center">
+                                <h3 class="team-items-text mb-4 text-black text-center">
+                                    AR/ VR design
+                                </h3>
+                                <a class="team-link d-inline-block" href="#"></a>
+                            </div>
+                        </li>
+                        <li class="team-item col-0 d-none col-md-4 d-md-flex justify-content-md-center col-lg-6 justify-content-lg-start mb-0 ps-lg-5">
+                            <div class="team-items-box d-flex flex-column align-items-center">
+                                <h3 class="team-items-text mb-4 text-black text-center">
+                                    3D Modelings
+                                </h3>
+                                <a class="team-link d-inline-block" href="#"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <!-- Hero section finish  -->
+        <!-- Team section finish  -->
+
+        <!-- Courusel section start  -->
+        <section class="corusel">
+            <div class="container-cust">
+                <div class="team-top-inner">
+                    <div class="team-textbox corusel-top-textbox pb-md-3 mb-md-5">
+                        <h2 class="team-top-text fw-semibold">
+                            Lorem Ipsum
+                        </h2>
+                        <p class="corusel-top-desc mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="corusel-responsive">
+                <div class="corusel-items w-100 bg-white">
+                    <div class="alert corusel-alert corusel-alert-green w-100 mb-0 rounded-2 border-0" role="alert">
+                        Lorem ipsum
+                    </div>
+
+                    <h3 class="corusel-text fw-semibold text-black mb-md-3">
+                        Lorem Ipsum
+                    </h3>
+
+                    <p class="corusel-desc">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </p>
+                    <div class="d-flex justify-content-end items">
+                        <a class="corusel-link d-inline-flex align-items-center  ms-auto text-decoration-none" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="corusel-items w-100 bg-white">
+                    <div class="alert corusel-alert corusel-alert-red w-100 mb-0 rounded-2 border-0" role="alert">
+                        Lorem ipsum
+                    </div>
+
+                    <h3 class="corusel-text fw-semibold text-black mb-md-3">
+                        Lorem Ipsum
+                    </h3>
+
+                    <p class="corusel-desc">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </p>
+                    <div class="d-flex justify-content-end items">
+                        <a class="corusel-link d-inline-flex align-items-center  ms-auto text-decoration-none" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="corusel-items w-100 bg-white">
+                    <div class="alert corusel-alert corusel-alert-violet w-100 mb-0 rounded-2 border-0" role="alert">
+                        Lorem ipsum
+                    </div>
+
+                    <h3 class="corusel-text fw-semibold text-black mb-md-3">
+                        Lorem Ipsum
+                    </h3>
+
+                    <p class="corusel-desc">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </p>
+                    <div class="d-flex justify-content-end items">
+                        <a class="corusel-link d-inline-flex align-items-center  ms-auto text-decoration-none" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="corusel-items w-100 bg-white">
+                    <div class="alert alert-info corusel-alert corusel-alert-blue w-100 mb-0 rounded-2 border-0" role="alert">
+                        Lorem ipsum
+                    </div>
+
+                    <h3 class="corusel-text fw-semibold text-black mb-md-3">
+                        Lorem Ipsum
+                    </h3>
+
+                    <p class="corusel-desc">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    </p>
+                    <div class="d-flex justify-content-end items">
+                        <a class="corusel-link d-inline-flex align-items-center  ms-auto text-decoration-none" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Courusel section finish  -->
+
+        <!-- Subcribe section start  -->
+        <section class="subcribe">
+            <div class="container-cust">
+                <div class="subcribe-inner mx-auto">
+                    <div class="subcribe-textbox">
+                        <h2 class="subcribe-title fw-semibold">
+                            Lorem Ipsum
+                        </h2>
+                        <p class="subcribe-top-desc mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        </p>
+                    </div>
+
+                    <div class="subcribe-box d-flex flex-column align-items-center justify-content-between flex-md-row">
+                        <div class="subcribe-textbox me-md-3">
+                            <h2 class="subcribe-text text-white">
+                                Stay in the loop
+                            </h2>
+                            <p class="subcribe-bottom-desc mb-0 text-white">
+                                Subscribe to receive the latest news and updates about TDA.
+                                We promise not to spam you! 
+                            </p>
+                        </div>
+
+                        <form class="subcribe-form mt-md-0" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                            <label class="subcribe-label input-group flex-nowrap w-100 rounded-2">
+                                <input class="subcribe-input form-control w-auto fw-light" type="email" aria-label="Enter your email address" aria-describedby="button-addon2" placeholder="Enter email address">
+                                <span class="subcribe-btnbox">
+                                    <button class="subcribe-btn btn rounded-2" type="submit" id="button-addon2">Continue</button>
+                                </span>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subcribe section finish  -->
     </main>
     <!-- Main finish  -->
 
     <!-- Footer start -->
     <footer class="site-footer">
+        <div class="footer-top d-none d-lg-block">
+            <div class="container-cust">
+                <div class="footer-inner d-flex justify-content-md-between mx-auto">
+                    <div class="footer-logobox mb-2 me-2">
+                        <a class="logo d-inline-block" href="./index.html">
+                            <img src="./images/logo.svg" alt="Site logo">
+                        </a>
 
+                        <p class="footer-desc footer-logo-desc text-white">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        </p>
+
+                        <p class="footer-desc m-0 text-white">
+                            @Company.com
+                        </p>
+                    </div>
+
+                    <div class="me-3">
+                        <strong class="footer-titles d-inline-block mb-3 text-white">
+                            About us
+                        </strong>
+
+                        <ul class="mb-0 list-unstyled">
+                            <li>
+                                <a class="footer-navlink text-decoration-none text-white" href="#">
+                                    Company
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-navlink text-decoration-none text-white" href="#">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-navlink text-decoration-none text-white" href="#">
+                                    Careers
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footer-navlink text-decoration-none text-white" href="#">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contactus me-2">
+                        <strong class="footer-titles d-inline-block mb-3 text-white">
+                            Contact us
+                        </strong>
+
+                        <p class="footer-desc footer-contact-desc text-white">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        </p>
+
+                        <a class="footer-desc text-decoration-none text-white" href="tel:+90000000000">+9000 0000 000</a>
+                    </div>
+
+                    <ul class="d-flex justify-content-between align-items-end mb-0 list-unstyled">
+                        <li class="me-3">
+                            <a class="footer-network d-inline-flex align-items-center justify-content-center rounded-circle bg-white" href="#" target="blank">
+                                <img src="./images/facebook.svg" alt="Facebook logo">
+                            </a>
+                        </li>
+                        <li class="me-3">
+                            <a class="footer-network d-inline-flex align-items-center justify-content-center rounded-circle bg-white" href="#" target="blank">
+                                <img src="./images/instagram.svg" alt="Instagram logo">
+                            </a>
+                        </li>
+                        <li class="me-3">
+                            <a class="footer-network d-inline-flex align-items-center justify-content-center rounded-circle bg-white" href="#" target="blank">
+                                <img src="./images/twitter.svg" alt="Twitter logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-network d-inline-flex align-items-center justify-content-center rounded-circle bg-white" href="#" target="blank">
+                                <img src="./images/linkedin.svg" alt="Linkedin logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container-cust">
+                <p class="footer-bottom-desc mb-0 text-center text-white">
+                    Copyright ® 2021 Company All rights Rcerved
+                </p>
+            </div>
+        </div>
     </footer>
     <!-- Footer finish -->
-    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
