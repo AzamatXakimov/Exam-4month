@@ -9,7 +9,6 @@
 
 .hero-textbox{
     max-width: 480px;
-    width: 100%;
 }
 
 .hero-minitext{
@@ -37,7 +36,6 @@
 
 .hero-link{
     max-width: 168px;
-    width: 100%;
     padding-top: 13px;
     padding-bottom: 12px;
     font-weight: 500;
@@ -57,9 +55,9 @@
     .hero{
         padding-top: 128px;
         padding-bottom: 158px;
-        background-image: url("../images/mens-in-vr.png"), url("../images/hero-bg.svg");
-        background-position: calc(50% + 240px) calc(50% - 10px), center bottom; 
-        background-size: 400px auto, cover;
+        // background-image: url("../images/mens-in-vr.png"), url("../images/hero-bg.svg");
+        // background-position: calc(50% + 240px) calc(50% - 10px), center bottom; 
+        // background-size: 400px auto, cover;
     }
     
     .hero-textbox{
@@ -97,7 +95,20 @@
 
 @include mobile-first(992px){
     .hero{
+        background-image: url("../images/mens-in-vr.png"), url("../images/hero-bg.svg");
+        background-position: calc(50% + 240px) calc(50% - 10px), center bottom; 
         background-size: 500px auto, cover;
+    }
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+        .hero{
+            background-image: url("../images/mens-in-vr@2x.png"), url("../images/hero-bg.svg");
+        }
     }
 }
 @include mobile-first(1200px){

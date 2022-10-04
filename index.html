@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exam</title>
-    <link rel="stylesheet" href="./css/bootstrap.css">  
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">  
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
@@ -17,7 +17,9 @@
     <header class="site-header pt-sm-2">
         <div class="container-cust">
             <div class="d-none d-sm-flex align-items-center justify-content-end pb-2">
-                <a class="header-top-link d-inline-flex align-items-center text-decoration-none" href="#">Company Address type here</a>
+                <address class="d-inline-block mb-0 ">
+                    <a class="header-top-link d-inline-flex align-items-center text-decoration-none" href="#">Company Address type here</a>
+                </address>
                 <a class="header-top-link header-top-phone d-inline-flex align-items-center text-decoration-none" href="tel:9400000000">+94 000 00000</a>
             </div>
 
@@ -31,22 +33,22 @@
                     <nav class="d-flex align-items-center justify-content-end w-100">
                         <ul class="header-navbar position-absolute end-0 flex-column align-items-center flex-md-wrap mb-0 py-4 list-unstyled d-md-flex flex-md-row py-md-0">
                             <li class="header-item mb-4 mb-md-0">
-                                <a class="header-nav-link text-decoration-none header-nav-link-active" href="#">
+                                <a class="header-nav-link text-decoration-none text-white header-nav-link-active" href="#">
                                     Home
                                 </a>
                             </li>
                             <li class="header-item mb-4 mb-md-0">
-                                <a class="header-nav-link text-decoration-none" href="#">
+                                <a class="header-nav-link text-decoration-none text-white" href="#">
                                     About us
                                 </a>
                             </li>
                             <li class="header-item mb-4 mb-md-0">
-                                <a class="header-nav-link text-decoration-none" href="#">
+                                <a class="header-nav-link text-decoration-none text-white" href="#">
                                     Services
                                 </a>
                             </li>
                             <li class="header-item ">
-                                <a class="header-nav-link text-decoration-none" href="#">
+                                <a class="header-nav-link text-decoration-none text-white" href="#">
                                     News
                                 </a>
                             </li>
@@ -69,8 +71,8 @@
         <!-- Hero section start  -->
         <section class="hero">
             <div class="container-cust">
-                <div class="d-flex flex-column align-items-center justify-content-between flex-md-row">
-                    <div class="hero-textbox">
+                <div class="d-flex flex-column align-items-center justify-content-between flex-lg-row">
+                    <div class="hero-textbox w-100">
                         <strong class="hero-minitext">Digital Marketing</strong>
     
                         <h1 class="hero-text fw-bold">
@@ -81,12 +83,13 @@
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
                         </p>
     
-                        <a class="hero-link d-inline-block text-white text-center text-decoration-none" href="#">Get more details</a>
+                        <a class="hero-link w-100 d-inline-block text-white text-center text-decoration-none" href="#">Get more details</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Hero section finish  -->
+
         <!-- Team section start  -->
         <section class="team">
             <div class="container-cust">
@@ -264,12 +267,100 @@
             </div>
         </section>
         <!-- Courusel section finish  -->
+        
+        <!-- Our Project section start  -->
+        <section class="out-project">
+            <div class="container-cust">
+                <div class="out-project-inner w-100 mx-auto">
+                    <div class="out-project-textbox w-100 mx-auto">
+                        <h2 class="out-project-text fw-semibold text-center mb-md-3">
+                            Our Recent Projects
+                        </h2>
+                        <p class="out-project-desc text-center mb-0">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        </p>
+                    </div>
+
+                    <ul class="row mb-0 list-unstyled">
+                        <li class="out-project-items col-12 col-sm-6 col-lg-4">
+                            <img class="out-project-img w-100" src="./images/boocks.png" 
+                            srcset="./images/boocks.png 1x , ./images/boocks@2x.png 2x"
+                            alt="Our project image">
+                        </li>
+                        <li class="out-project-items col-12 col-sm-6 col-lg-4">
+                            <img class="out-project-img w-100" src="./images/team-work.png" 
+                            srcset="./images/team-work.png 1x , ./images/team-work@2x.png 2x"
+                            alt="Our project image">
+                        </li>
+                        <li class="out-project-items d-none d-sm-block col-sm-8 col-lg-4">
+                            <img class="out-project-img w-100" src="./images/reading-boocks.png" 
+                            srcset="./images/reading-boocks.png 1x , ./images/reading-boocks@2x.png 2x"
+                            alt="Our project image">
+                        </li>
+                        <li class="out-project-items d-none d-sm-block col-sm-4 col-lg-3 mb-lg-0">
+                            <img class="out-project-img w-100" src="./images/worker.png" 
+                            srcset="./images/worker.png 1x , ./images/worker@2x.png 2x"
+                            alt="Our project image">
+                        </li>
+                        <li class="out-project-items d-none mb-0 d-sm-block col-sm-6 col-lg-4">
+                            <img class="out-project-img w-100" src="./images/team-room.png" 
+                            srcset="./images/team-room.png 1x , ./images/team-room@2x.png 2x"
+                            alt="Our project image">
+                        </li>
+                        <li class="out-project-items col-12 mb-sm-0 col-sm-6 col-lg-5">
+                            <img class="out-project-img w-100" src="./images/friends-working.png" 
+                            srcset="./images/friends-working.png 1x , ./images/friends-working@2x.png 2x"
+                            alt="Our project image">
+                        </li>
+                        <li class="out-project-items col-12 mb-0 d-sm-none">
+                            <img class="out-project-img w-100" src="./images/reading-boocks.png" 
+                            srcset="./images/reading-boocks.png 1x , ./images/reading-boocks@2x.png 2x"
+                            alt="Our project image">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Our Projeect section finish  -->
+        
+        <!-- About us section finish  -->
+        <section class="about-us">
+            <div class="container-cust">
+                <div class="about-us-inner d-flex flex-column align-items-center justify-content-between flex-lg-row-reverse">
+                    <div class="about-us-infobox ms-lg-3">
+                        <div class="about-us-textbox w-100">
+                            <h2 class="about-us-text text-black">
+                                Lorem Ipsum is simply dummy 
+                                text dummy text 
+                            </h2>
+                        </div>
+
+                        <p class="about-us-desc mb-3">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        </p>
+                        <div class="about-us-textbox w-100">
+                            <p class="about-us-desc">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            </p>
+                        </div>
+                        <a class="about-us-link d-inline-block w-100 text-center text-white text-decoration-none" href="#">
+                            Read more
+                        </a>
+                    </div>
+
+                    <img class="about-us-img w-100" src="./images/friends.jpg" 
+                    srcset="./images/friends.jpg 1x , ./images/friends@2x.jpg 2x"
+                    alt="Friends image">
+                </div>
+            </div>
+        </section>
+        <!-- About us section finish  -->
 
         <!-- Subcribe section start  -->
         <section class="subcribe">
             <div class="container-cust">
-                <div class="subcribe-inner mx-auto">
-                    <div class="subcribe-textbox">
+                <div class="subcribe-inner w-100 mx-auto">
+                    <div class="subcribe-textbox w-100">
                         <h2 class="subcribe-title fw-semibold">
                             Lorem Ipsum
                         </h2>
@@ -289,11 +380,11 @@
                             </p>
                         </div>
 
-                        <form class="subcribe-form mt-md-0" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                        <form class="subcribe-form w-100 mt-md-0" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
                             <label class="subcribe-label input-group flex-nowrap w-100 rounded-2">
-                                <input class="subcribe-input form-control w-auto fw-light" type="email" aria-label="Enter your email address" aria-describedby="button-addon2" placeholder="Enter email address">
+                                <input class="subcribe-input form-control w-auto fw-light" type="email" name="user_email" aria-label="Enter your email address" aria-describedby="button-addon2" placeholder="Enter email address">
                                 <span class="subcribe-btnbox">
-                                    <button class="subcribe-btn btn rounded-2" type="submit" id="button-addon2">Continue</button>
+                                    <button class="subcribe-btn rounded-2 border-0" type="submit" id="button-addon2">Continue</button>
                                 </span>
                             </label>
                         </form>
@@ -307,15 +398,15 @@
 
     <!-- Footer start -->
     <footer class="site-footer">
-        <div class="footer-top d-none d-lg-block">
+        <div class="footer-top d-none d-sm-block">
             <div class="container-cust">
-                <div class="footer-inner d-flex justify-content-md-between mx-auto">
-                    <div class="footer-logobox mb-2 me-2">
+                <div class="footer-inner w-100 d-sm-flex flex-sm-column align-items-sm-center justify-content-sm-between mx-sm-auto flex-lg-row align-items-lg-end">
+                    <div class="footer-logobox w-100 d-sm-flex flex-sm-column align-items-sm-center mb-sm-5 align-items-lg-start mb-lg-2 me-lg-2">
                         <a class="logo d-inline-block" href="./index.html">
                             <img src="./images/logo.svg" alt="Site logo">
                         </a>
 
-                        <p class="footer-desc footer-logo-desc text-white">
+                        <p class="footer-desc footer-logo-desc text-white text-sm-center text-lg-start">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         </p>
 
@@ -324,12 +415,12 @@
                         </p>
                     </div>
 
-                    <div class="me-3">
+                    <div class="footer-about-us d-sm-flex flex-sm-column align-items-sm-center mb-sm-5 align-items-lg-start mb-lg-1 me-lg-3">
                         <strong class="footer-titles d-inline-block mb-3 text-white">
                             About us
                         </strong>
 
-                        <ul class="mb-0 list-unstyled">
+                        <ul class="list-unstyled d-sm-flex flex-sm-column align-items-sm-center mb-sm-0 align-items-lg-start">
                             <li>
                                 <a class="footer-navlink text-decoration-none text-white" href="#">
                                     Company
@@ -353,19 +444,19 @@
                         </ul>
                     </div>
 
-                    <div class="footer-contactus me-2">
+                    <div class="footer-contactus w-100 d-sm-flex flex-sm-column align-items-sm-center mb-sm-5 align-items-lg-start mb-lg-0 me-lg-2">
                         <strong class="footer-titles d-inline-block mb-3 text-white">
                             Contact us
                         </strong>
 
-                        <p class="footer-desc footer-contact-desc text-white">
+                        <p class="footer-desc footer-contact-desc text-white text-sm-center text-lg-start">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         </p>
 
                         <a class="footer-desc text-decoration-none text-white" href="tel:+90000000000">+9000 0000 000</a>
                     </div>
 
-                    <ul class="d-flex justify-content-between align-items-end mb-0 list-unstyled">
+                    <ul class="footer-network-list list-unstyled d-sm-flex justify-content-sm-between align-items-sm-center align-items-lg-end mb-2">
                         <li class="me-3">
                             <a class="footer-network d-inline-flex align-items-center justify-content-center rounded-circle bg-white" href="#" target="blank">
                                 <img src="./images/facebook.svg" alt="Facebook logo">

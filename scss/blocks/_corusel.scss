@@ -87,6 +87,10 @@
         background-size: cover;
         content: "";
     }
+
+    &:hover{
+        color: #dc7000;
+    }
 }
 
 @include mobile-first(768px){
